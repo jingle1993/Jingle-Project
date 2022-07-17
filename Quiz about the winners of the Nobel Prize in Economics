@@ -1,0 +1,83 @@
+print("Welcome to our quiz. We want to test you how much you know about the most famous economist and their research field.")
+
+playing=input("Do you want to play? ")   
+
+if playing!= "yes":
+    quit()
+
+print("Thanks for participating. You will get to know some research topic and please write the name of those scientists in the empty field.")
+score=0
+
+answer1=input("Who invented the Market Efficiency Hypothesis? ")
+if answer1== "Eugene Fama":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer2=input("The scienist conducted how to use nudge to bring more people to donate their organs is ")
+if answer2== "Richard Thaler":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+    
+answer3=input("Who was the founder of the modern portfolio theory ")
+if answer3== "Harry Markowitz":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer4=input("Who did research about consumption, poverty and welfare state? ")
+if answer4== "Agnus Deaton":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer5=input("Who invented the Prospect Theory? ")
+if answer5== "Daniel Kahnemann":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer6=input("Who analyzed the equilibria of non-cooperative games? ")
+if answer6== "John Nash":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer7=input("Who did natural experiments on labour economics? ")
+if answer7== "David Card":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer8=input("Who established laboratoy experiments as tool in empirical economic analysis? ")
+if answer8== "Vernon Smith":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer9=input("Who did research on the Human Capital Theory? ")
+if answer9== "Gary Becker":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+answer10=input("Who invented the Modigliani-Miller theorem? ")
+if answer10== "Franco Modigliani":
+    print("correct")
+    score=score+1
+else:
+    print("incorrect")
+
+print("You got "+str(score)+" points!")    
+print("You answered "+str(score/10*100)+"% of the questions right!")     
+
